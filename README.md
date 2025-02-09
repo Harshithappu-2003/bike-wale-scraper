@@ -15,6 +15,8 @@ It scrapes images, names, prices, and ratings of bikes from different categories
 ## Project Structure
 bike-wale-scraper/
 │── app.py  # Main Streamlit app
+
 │── requirements.txt  # Dependencies
+
 │── README.md  # Project Documentation
 
