@@ -1,2 +1,20 @@
-# bike-wale-scraper
-A web scraper built with Streamlit that fetches bike details (images, names, prices, and ratings) from BikeWale. Users can select a category (Scooters, Sports Bikes, or Cruise Bikes) to scrape and display the results in a visually appealing format.
+# Bike Wale Scraper
+
+## Overview
+This is a Streamlit-based web scraper that extracts information about bikes from [BikeWale](https://www.bikewale.com).  
+It scrapes images, names, prices, and ratings of bikes from different categories and displays them in a structured format.
+
+## Features
+- Scrapes data from BikeWale for different bike categories:
+  - Scooters
+  - Sports Bikes
+  - Cruise Bikes
+- Displays images, names, prices, and ratings in an interactive UI.
+- Uses BeautifulSoup for web scraping and Pandas for data handling.
+
+## Project Structure
+bike-wale-scraper/
+│── app.py  # Main Streamlit app
+│── requirements.txt  # Dependencies
+│── README.md  # Project Documentation
+
